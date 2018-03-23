@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSignalRServer", "WPFSign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSignalRClient", "WPFSignalRClient\WPFSignalRClient.csproj", "{CF74A680-0C56-4E86-9521-1F19BB786914}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSignalRServer", "ConsoleSignalRServer\ConsoleSignalRServer.csproj", "{F9232C78-8F7A-4ECD-9772-0F9409A6A178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF74A680-0C56-4E86-9521-1F19BB786914}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF74A680-0C56-4E86-9521-1F19BB786914}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF74A680-0C56-4E86-9521-1F19BB786914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9232C78-8F7A-4ECD-9772-0F9409A6A178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9232C78-8F7A-4ECD-9772-0F9409A6A178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9232C78-8F7A-4ECD-9772-0F9409A6A178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9232C78-8F7A-4ECD-9772-0F9409A6A178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
