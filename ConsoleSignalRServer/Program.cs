@@ -18,12 +18,12 @@ namespace ConsoleSignalRServer
                 x.UseLog4Net("log4net.config");
                 x.RunAsLocalSystem();
 
-                x.SetServiceName(SignalRSettings.Instance.ServiceName);
-                x.SetDisplayName(SignalRSettings.Instance.ServiceDisplayName);
-                x.SetDescription(SignalRSettings.Instance.ServiceDescription);
+                x.SetServiceName("SignalRServer");
+                x.SetDisplayName("SignalR Topshelf Server");
+                x.SetDescription("using topshelf to host SignalR server,processing SignalR Client Connection etc.");
                 
 
-                x.UseOwin(baseAddress: SignalRSettings.Instance.ServiceAddress);
+                x.UseOwin(baseAddress: "http://localhost:8080/");
 
                 x.SetStartTimeout(TimeSpan.FromMinutes(5));
                 x.SetStopTimeout(TimeSpan.FromMinutes(35));
