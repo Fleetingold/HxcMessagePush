@@ -15,7 +15,7 @@ namespace ConsoleSignalRServer
 
             return (int)HostFactory.Run(x =>
             {
-                x.UseLog4Net("log4net.config");
+                //x.UseLog4Net("log4net.config");
                 x.RunAsLocalSystem();
 
                 x.SetServiceName("SignalRServer");
